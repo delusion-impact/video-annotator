@@ -1,0 +1,7 @@
+# Нормализация переводов строк: в репозитории — LF, в рабочей копии — CRLF
+* text=auto eol=crlf
+
+*.py   text diff=python
+*.ps1  text eol=crlf
+*.md   text
+.gitignore text

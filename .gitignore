@@ -1,0 +1,29 @@
+# Бинарники whisper.cpp (качаются скриптом setup.ps1)
+tools/
+
+# Модели whisper (качаются скриптом setup.ps1)
+models/
+
+# Промежуточные файлы и кэш
+work/
+.video-annotator/
+*.wav
+*.mp4
+*.json.gz
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# IDE / ОС
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Локальное окружение
+.env
+*.log
